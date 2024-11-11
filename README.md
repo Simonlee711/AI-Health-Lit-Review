@@ -7,10 +7,11 @@ Ai in Healthcare Lit Review
 
 
 
-## Section 3.1 Transformer-Based EHR Foundation Models
+
+## Section 3.1 Transformer Based EHR Foundation Models
 * BERT: *arXiv* - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 
-### Section 3.1.1 BERT-Based representation learning of clinical and scientific data
+### Section 3.1.1 BERT Based representation learning of clinical and scientific data
 * BioBert: *Bioinformatics* - [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://doi.org/10.1093/bioinformatics/btz682)
 * Pretraining on PubMed Abstracts: *The NCBI Handbook* - [Pubmed: the bibliographic database](https://www.ncbi.nlm.nih.gov/books/NBK153385/)
 * Pretraining on PubMed Articles: *NCBI Handbook* - ?
