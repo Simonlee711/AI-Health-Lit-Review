@@ -64,9 +64,9 @@
   <text x="520" y="665" font-family="Arial" font-size="14" fill="#333">Caltech-101</text>
   <text x="605" y="665" font-family="Arial" font-size="12" fill="#666">14K Images</text>
   
-  <circle cx="750" cy="660" r="20" fill="#B3D9FF"/>
-  <text x="690" y="665" font-family="Arial" font-size="12" fill="#333">Stanford Sentiment Treebank</text>
-  <text x="855" y="665" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
+  <circle cx="760" cy="660" r="20" fill="#B3D9FF"/>
+  <text x="700" y="665" font-family="Arial" font-size="12" fill="#333">Stanford Sentiment Treebank</text>
+  <text x="865" y="665" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
   
   <!-- Legend -->
   <rect x="50" y="750" width="15" height="15" fill="#B3D9FF"/>
