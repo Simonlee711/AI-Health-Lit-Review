@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#ffffff"/>
+  
+  <!-- Category Labels -->
+  <text x="50" y="80" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Zero-shot Models</text>
+  <text x="50" y="250" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Transfer-learning Models</text>
+  <text x="50" y="420" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Multi-task Models</text>
+  <text x="50" y="590" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Single-task Models</text>
+  
+  <!-- Zero-shot Section -->
+  <line x1="50" y1="100" x2="950" y2="100" stroke="#eee" stroke-width="1"/>
+  <circle cx="300" cy="150" r="40" fill="#B3D9FF"/>
+  <text x="280" y="155" font-family="Arial" font-size="14" fill="#333">GPT-3</text>
+  <text x="350" y="155" font-family="Arial" font-size="12" fill="#666">499B Tokens</text>
+  
+  <circle cx="500" cy="150" r="30" fill="#B3D9FF"/>
+  <text x="480" y="155" font-family="Arial" font-size="14" fill="#333">GPT-2</text>
+  <text x="540" y="155" font-family="Arial" font-size="12" fill="#666">16B Tokens</text>
+  
+  <circle cx="700" cy="150" r="25" fill="#C1E1C1"/>
+  <text x="680" y="155" font-family="Arial" font-size="14" fill="#333">DALL-E 2</text>
+  <text x="735" y="155" font-family="Arial" font-size="12" fill="#666">650M Images</text>
+  
+  <!-- Transfer-learning Section -->
+  <line x1="50" y1="270" x2="950" y2="270" stroke="#eee" stroke-width="1"/>
+  <circle cx="300" cy="320" r="45" fill="#B3D9FF"/>
+  <text x="280" y="325" font-family="Arial" font-size="14" fill="#333">BERT</text>
+  <text x="355" y="325" font-family="Arial" font-size="12" fill="#666">16B Tokens</text>
+  
+  <circle cx="500" cy="320" r="30" fill="#C1E1C1"/>
+  <text x="475" y="325" font-family="Arial" font-size="14" fill="#333">SimCLR</text>
+  <text x="540" y="325" font-family="Arial" font-size="12" fill="#666">2M Images</text>
+  
+  <circle cx="700" cy="320" r="25" fill="#FFB3B3"/>
+  <text x="675" y="325" font-family="Arial" font-size="14" fill="#333">Doctor AI</text>
+  <text x="735" y="325" font-family="Arial" font-size="12" fill="#666">2M Patients</text>
+  
+  <!-- Multi-task Section -->
+  <line x1="50" y1="440" x2="950" y2="440" stroke="#eee" stroke-width="1"/>
+  <circle cx="300" cy="490" r="25" fill="#B3D9FF"/>
+  <text x="280" y="495" font-family="Arial" font-size="14" fill="#333">MTAN</text>
+  <text x="335" y="495" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
+  
+  <circle cx="500" cy="490" r="30" fill="#C1E1C1"/>
+  <text x="470" y="495" font-family="Arial" font-size="14" fill="#333">MT MIMIC</text>
+  <text x="540" y="495" font-family="Arial" font-size="12" fill="#666">2M Images</text>
+  
+  <circle cx="700" cy="490" r="25" fill="#B3D9FF"/>
+  <text x="680" y="495" font-family="Arial" font-size="14" fill="#333">MQAN</text>
+  <text x="735" y="495" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
+  
+  <!-- Single-task Section -->
+  <line x1="50" y1="610" x2="950" y2="610" stroke="#eee" stroke-width="1"/>
+  <circle cx="200" cy="560" r="25" fill="#B3D9FF"/>
+  <text x="180" y="565" font-family="Arial" font-size="14" fill="#333">SOFA</text>
+  <text x="235" y="565" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
+  
+  <circle cx="400" cy="560" r="30" fill="#FFB3B3"/>
+  <text x="360" y="565" font-family="Arial" font-size="14" fill="#333">Diabetic Retinopathy</text>
+  <text x="470" y="565" font-family="Arial" font-size="12" fill="#666">28M Patients</text>
+  
+  <circle cx="600" cy="560" r="25" fill="#C1E1C1"/>
+  <text x="570" y="565" font-family="Arial" font-size="14" fill="#333">Caltech-101</text>
+  <text x="635" y="565" font-family="Arial" font-size="12" fill="#666">14K Images</text>
+  
+  <circle cx="800" cy="560" r="20" fill="#B3D9FF"/>
+  <text x="740" y="565" font-family="Arial" font-size="12" fill="#333">Stanford Sentiment Treebank</text>
+  <text x="855" y="565" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
+  
+  <!-- Legend -->
+  <rect x="50" y="650" width="15" height="15" fill="#B3D9FF"/>
+  <text x="70" y="662" font-family="Arial" font-size="12" fill="#333">NLP Models</text>
+  
+  <rect x="150" y="650" width="15" height="15" fill="#C1E1C1"/>
+  <text x="170" y="662" font-family="Arial" font-size="12" fill="#333">Computer Vision</text>
+  
+  <rect x="270" y="650" width="15" height="15" fill="#FFB3B3"/>
+  <text x="290" y="662" font-family="Arial" font-size="12" fill="#333">Medical AI</text>
+</svg>
