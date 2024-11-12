@@ -62,7 +62,7 @@
   
   <circle cx="550" cy="660" r="25" fill="#C1E1C1"/>
   <text x="520" y="665" font-family="Arial" font-size="14" fill="#333">Caltech-101</text>
-  <text x="635" y="665" font-family="Arial" font-size="12" fill="#666">14K Images</text>
+  <text x="595" y="665" font-family="Arial" font-size="12" fill="#666">14K Images</text>
   
   <circle cx="800" cy="660" r="20" fill="#B3D9FF"/>
   <text x="740" y="665" font-family="Arial" font-size="12" fill="#333">Stanford Sentiment Treebank</text>
