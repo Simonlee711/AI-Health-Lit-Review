@@ -46,7 +46,9 @@
 | MiME               | *Advances in neural information processing systems*                                        | [MiME: Multilevel Medical Embedding of Electronic Health Records for Predictive Healthcare](https://papers.nips.cc/paper_files/paper/2018/hash/934b535800b1cba8f96a5d72f72f1611-Abstract.html)| 
 | BioMegatron        | *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)* | [BioMegatron: Larger Biomedical Domain Language Model](https://aclanthology.org/2020.emnlp-main.379/)
 
-## Autoregressive EHR Foundation Models
+---
+
+# Autoregressive EHR Foundation Models
 ### Early Autoregressive Models
 | Model              | Source                                                                                     | Link |
 |--------------------|--------------------------------------------------------------------------------------------|------|
