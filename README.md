@@ -1,16 +1,6 @@
 # A Review of AI in Healthcare in the Era of Foundation Models
 ---
 
-## Table of Contents 
-* [EHR Foundation Models](#ehr-foundation-models)
-* [Transformer-Based EHR Foundation Models](#transformer-based-ehr-foundation-models)
-* [BERT-Based representation learning of clinical and scientific data](#bert-based-representation-learning-of-clinical-and-scientific-data)
-* [BEHRT-Based temporal modeling](#behrt-based-temporal-modeling)
-* [Other Transformer-Based Models](#other-transformer-based-models)
-* [Autoregressive EHR Foundation Models](#autoregressive-ehr-foundation-models)
-* [Early Autoregressive Models](#early-autoregressive-models)
-
-
 # EHR Foundation Models
 
 <details>
@@ -50,8 +40,6 @@
 
 </details>
 
----
-
 <details>
 <summary> EHR Autoregressive Foundation Models </summary>
 
@@ -61,6 +49,69 @@
 |--------------------|--------------------------------------------------------------------------------------------|------|
 | Doctor AI          | *Machine learning for healthcare conference*                                               | [Doctor AI: Predicting Clinical Events via Recurrent Neural Networks](https://pubmed.ncbi.nlm.nih.gov/28286600/) |
 
+</details>
+
+<details>
+<summary> EHR LLMs </summary>
+Fill in
+</details>
+
+# Clinical Foundation models
+
+## Medical Imaging Foundation Modes
+
+<details>
+<summary> SAM Based Models </summary>
+[fill in]
+</details>
+
+<details>
+<summary> Other medical Imaging Foundation Models </summary>
+[fill in]
+</details>
+
+<details>
+<summary> Frameworks </summary>
+[fill in]
+</details>
+
+## Genetic & Genomics Foundation Modes
+
+<details>
+<summary> Genetic Foundation Models </summary>
+[fill in]
+</details>
+
+<details>
+<summary> Long Sequence Modeling </summary>
+[fill in]
+</details>
+
+<details>
+<summary> Special Eigenetic Foundation models </summary>
+[fill in]
+</details>
+
+## Physiological Signals and Waveforms Foundation Modes
+
+<details>
+<summary> ECG Foundation Models </summary>
+[fill in]
+</details>
+
+<details>
+<summary> EEG Foundation models </summary>
+[fill in]
+</details>
+
+<details>
+<summary> Multimodal Foundation models </summary>
+[fill in]
+</details>
+
+<details>
+<summary> Other Foundation models </summary>
+[fill in]
 </details>
 
 ### Contact
