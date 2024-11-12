@@ -1,5 +1,5 @@
-# AI-Health-Lit-Review
-Ai in Healthcare Lit Review 
+# A Review of AI in Healthcare in the Era of Foundation Models
+---
 
 ## Table of Contents 
 * [EHR Foundation Models](#section-31-transformer-based-ehr-foundation-models)
@@ -23,6 +23,11 @@ Ai in Healthcare Lit Review
 | RoBERTa            | *arXiv*                                                                                   | [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692) |
 | PubMedBERT         | *ACM Transactions on Computing for Healthcare*                                            | [Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing](https://dl.acm.org/doi/10.1145/3458754) |
 | SciBERT            | *arXiv*                                                                                   | [A Pretrained Language Model for Scientific Text](https://arxiv.org/abs/1903.10676) |
+
+
+### Contact
+
+- Simon Lee (simonlee711@g.ucla.edu)
 
 
 
