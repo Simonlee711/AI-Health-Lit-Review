@@ -58,7 +58,7 @@
   
   <circle cx="300" cy="660" r="30" fill="#FFB3B3"/>
   <text x="260" y="665" font-family="Arial" font-size="14" fill="#333">Diabetic Retinopathy</text>
-  <text x="370" y="665" font-family="Arial" font-size="12" fill="#666">28M Patients</text>
+  <text x="420" y="665" font-family="Arial" font-size="12" fill="#666">28M Patients</text>
   
   <circle cx="600" cy="660" r="25" fill="#C1E1C1"/>
   <text x="570" y="665" font-family="Arial" font-size="14" fill="#333">Caltech-101</text>
