@@ -52,12 +52,12 @@
   
   <!-- Single-task Section -->
   <line x1="50" y1="610" x2="950" y2="610" stroke="#eee" stroke-width="1"/>
-  <circle cx="200" cy="660" r="25" fill="#B3D9FF"/>
-  <text x="180" y="665" font-family="Arial" font-size="14" fill="#333">SOFA</text>
-  <text x="235" y="665" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
+  <circle cx="100" cy="660" r="25" fill="#B3D9FF"/>
+  <text x="80" y="665" font-family="Arial" font-size="14" fill="#333">SOFA</text>
+  <text x="q35" y="665" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
   
-  <circle cx="400" cy="660" r="30" fill="#FFB3B3"/>
-  <text x="360" y="665" font-family="Arial" font-size="14" fill="#333">Diabetic Retinopathy</text>
+  <circle cx="300" cy="660" r="30" fill="#FFB3B3"/>
+  <text x="260" y="665" font-family="Arial" font-size="14" fill="#333">Diabetic Retinopathy</text>
   <text x="470" y="665" font-family="Arial" font-size="12" fill="#666">28M Patients</text>
   
   <circle cx="600" cy="660" r="25" fill="#C1E1C1"/>
