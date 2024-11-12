@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="1000" height="700" fill="#ffffff"/>
+  <rect width="1000" height="1000" fill="#ffffff"/>
   
   <!-- Category Labels -->
   <text x="50" y="80" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Zero-shot Models</text>
@@ -52,29 +52,29 @@
   
   <!-- Single-task Section -->
   <line x1="50" y1="610" x2="950" y2="610" stroke="#eee" stroke-width="1"/>
-  <circle cx="200" cy="560" r="25" fill="#B3D9FF"/>
-  <text x="180" y="565" font-family="Arial" font-size="14" fill="#333">SOFA</text>
-  <text x="235" y="565" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
+  <circle cx="200" cy="660" r="25" fill="#B3D9FF"/>
+  <text x="180" y="665" font-family="Arial" font-size="14" fill="#333">SOFA</text>
+  <text x="235" y="665" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
   
-  <circle cx="400" cy="560" r="30" fill="#FFB3B3"/>
-  <text x="360" y="565" font-family="Arial" font-size="14" fill="#333">Diabetic Retinopathy</text>
-  <text x="470" y="565" font-family="Arial" font-size="12" fill="#666">28M Patients</text>
+  <circle cx="400" cy="660" r="30" fill="#FFB3B3"/>
+  <text x="360" y="665" font-family="Arial" font-size="14" fill="#333">Diabetic Retinopathy</text>
+  <text x="470" y="665" font-family="Arial" font-size="12" fill="#666">28M Patients</text>
   
-  <circle cx="600" cy="560" r="25" fill="#C1E1C1"/>
-  <text x="570" y="565" font-family="Arial" font-size="14" fill="#333">Caltech-101</text>
-  <text x="635" y="565" font-family="Arial" font-size="12" fill="#666">14K Images</text>
+  <circle cx="600" cy="660" r="25" fill="#C1E1C1"/>
+  <text x="570" y="665" font-family="Arial" font-size="14" fill="#333">Caltech-101</text>
+  <text x="635" y="665" font-family="Arial" font-size="12" fill="#666">14K Images</text>
   
   <circle cx="800" cy="560" r="20" fill="#B3D9FF"/>
-  <text x="740" y="565" font-family="Arial" font-size="12" fill="#333">Stanford Sentiment Treebank</text>
-  <text x="855" y="565" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
+  <text x="740" y="665" font-family="Arial" font-size="12" fill="#333">Stanford Sentiment Treebank</text>
+  <text x="855" y="665" font-family="Arial" font-size="12" fill="#666">1M Tokens</text>
   
   <!-- Legend -->
-  <rect x="50" y="650" width="15" height="15" fill="#B3D9FF"/>
-  <text x="70" y="662" font-family="Arial" font-size="12" fill="#333">NLP Models</text>
+  <rect x="50" y="750" width="15" height="15" fill="#B3D9FF"/>
+  <text x="70" y="762" font-family="Arial" font-size="12" fill="#333">NLP Models</text>
   
-  <rect x="150" y="650" width="15" height="15" fill="#C1E1C1"/>
-  <text x="170" y="662" font-family="Arial" font-size="12" fill="#333">Computer Vision</text>
+  <rect x="150" y="750" width="15" height="15" fill="#C1E1C1"/>
+  <text x="170" y="762" font-family="Arial" font-size="12" fill="#333">Computer Vision</text>
   
-  <rect x="270" y="650" width="15" height="15" fill="#FFB3B3"/>
-  <text x="290" y="662" font-family="Arial" font-size="12" fill="#333">Medical AI</text>
+  <rect x="270" y="750" width="15" height="15" fill="#FFB3B3"/>
+  <text x="290" y="762" font-family="Arial" font-size="12" fill="#333">Medical AI</text>
 </svg>
