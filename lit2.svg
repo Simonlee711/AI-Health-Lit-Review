@@ -20,7 +20,7 @@
   
   <circle cx="700" cy="150" r="25" fill="#C1E1C1"/>
   <text x="680" y="155" font-family="Arial" font-size="14" fill="#333">DALL-E 2</text>
-  <text x="735" y="155" font-family="Arial" font-size="12" fill="#666">650M Images</text>
+  <text x="755" y="155" font-family="Arial" font-size="12" fill="#666">650M Images</text>
   
   <!-- Transfer-learning Section -->
   <line x1="50" y1="270" x2="950" y2="270" stroke="#eee" stroke-width="1"/>
