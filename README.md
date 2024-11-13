@@ -36,6 +36,7 @@
 |--------------------|--------------------------------------------------------------------------------------------|------|
 | MiME               | *Advances in neural information processing systems*                                        | [MiME: Multilevel Medical Embedding of Electronic Health Records for Predictive Healthcare](https://papers.nips.cc/paper_files/paper/2018/hash/934b535800b1cba8f96a5d72f72f1611-Abstract.html)| 
 | BioMegatron        | *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)* | [BioMegatron: Larger Biomedical Domain Language Model](https://aclanthology.org/2020.emnlp-main.379/)
+| GatorTron          | *arXiv*                                                                                    | [GatorTron: A Large Clinical Language Model to Unlock Patient Information from Unstructured Electronic Health Records](https://arxiv.org/abs/2203.03540) |
 
 </details>
 
@@ -73,7 +74,6 @@
 | Model              | Source                                                                                     | Link |
 |--------------------|--------------------------------------------------------------------------------------------|------|
 | GatorTronGPT       | *NPJ Digital Medicine*                                                                     | [A study of generative large language model for medical research and healthcare](https://pubmed.ncbi.nlm.nih.gov/37973919/)
-| GatorTron          | *arXiv*                                                                                    | [GatorTron: A Large Clinical Language Model to Unlock Patient Information from Unstructured Electronic Health Records](https://arxiv.org/abs/2203.03540) |
 | ClinicalGPT        | *arXiv*                                                                                    | [ClinicalGPT: Large Language Models Finetuned with Diverse Medical Data and Comprehensive Evaluation](https://arxiv.org/abs/2306.09968) |
 
 ### LLaMA Based LLMs 
