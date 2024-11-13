@@ -110,19 +110,19 @@
     <!-- Lab Values -->
     <g transform="translate(20,70)">
       <text x="0" y="0" font-family="Arial" font-size="14">Glucose</text>
-      <text x="70" y="0" font-family="Arial" font-size="14">98 mg/dL</text>
+      <text x="80" y="0" font-family="Arial" font-size="14">98 mg/dL</text>
     </g>
     <g transform="translate(20,100)">
       <text x="0" y="0" font-family="Arial" font-size="14">Cholesterol</text>
-      <text x="70" y="0" font-family="Arial" font-size="14">180 mg/dL</text>
+      <text x="80" y="0" font-family="Arial" font-size="14">180 mg/dL</text>
     </g>
     <g transform="translate(20,130)">
       <text x="0" y="0" font-family="Arial" font-size="14">HDL</text>
-      <text x="70" y="0" font-family="Arial" font-size="14">45 mg/dL</text>
+      <text x="80" y="0" font-family="Arial" font-size="14">45 mg/dL</text>
     </g>
     <g transform="translate(20,160)">
       <text x="0" y="0" font-family="Arial" font-size="14">LDL</text>
-      <text x="70" y="0" font-family="Arial" font-size="14">100 mg/dL</text>
+      <text x="80" y="0" font-family="Arial" font-size="14">100 mg/dL</text>
     </g>
   </g>
 </svg>
