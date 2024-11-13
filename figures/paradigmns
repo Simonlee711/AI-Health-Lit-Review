@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+    <!-- Background -->
+    <rect width="800" height="500" fill="#ffffff"/>
+    
+    <!-- Title -->
+    <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#2c3e50">EHR Foundation Model Architectures</text>
+
+    <!-- Encoder Only (BERT-style) -->
+    <g transform="translate(50,80)">
+        <!-- Title -->
+        <text x="110" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2980b9">Encoder Only</text>
+        <text x="110" y="50" text-anchor="middle" font-size="14" fill="#34495e">(e.g., ClinicalBERT)</text>
+        
+        <!-- Input Embeddings -->
+        <rect x="20" y="70" width="180" height="30" fill="#bde0ef" stroke="#2980b9" stroke-width="2"/>
+        <text x="110" y="90" text-anchor="middle" font-size="12" fill="#34495e">Input Embeddings</text>
+        
+        <!-- Encoder Layers -->
+        <rect x="20" y="120" width="180" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+        <text x="110" y="145" text-anchor="middle" font-size="12" fill="white">Self-Attention</text>
+        
+        <rect x="20" y="170" width="180" height="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+        <text x="110" y="195" text-anchor="middle" font-size="12" fill="white">Feed Forward</text>
+        
+        <!-- Output -->
+        <rect x="20" y="230" width="180" height="30" fill="#bde0ef" stroke="#2980b9" stroke-width="2"/>
+        <text x="110" y="250" text-anchor="middle" font-size="12" fill="#34495e">Contextual Representations</text>
+        
+        <!-- Bidirectional arrows -->
+        <path d="M 40,140 L 180,140" stroke="#34495e" stroke-width="1" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+        
+        <!-- Label -->
+        <text x="110" y="280" text-anchor="middle" font-size="12" fill="#34495e">Bidirectional Context</text>
+    </g>
+
+    <!-- Decoder Only (<3B params) -->
+    <g transform="translate(290,80)">
+        <!-- Title -->
+        <text x="110" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#c0392b">Decoder Only</text>
+        <text x="110" y="50" text-anchor="middle" font-size="14" fill="#34495e">(e.g., CEHR-GPT, < 3B params)</text>
+        
+        <!-- Input Embeddings -->
+        <rect x="20" y="70" width="180" height="30" fill="#f5c6c1" stroke="#c0392b" stroke-width="2"/>
+        <text x="110" y="90" text-anchor="middle" font-size="12" fill="#34495e">Input Embeddings</text>
+        
+        <!-- Decoder Layers -->
+        <rect x="20" y="120" width="180" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+        <text x="110" y="145" text-anchor="middle" font-size="12" fill="white">Masked Self-Attention</text>
+        
+        <rect x="20" y="170" width="180" height="40" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+        <text x="110" y="195" text-anchor="middle" font-size="12" fill="white">Feed Forward</text>
+        
+        <!-- Output -->
+        <rect x="20" y="230" width="180" height="30" fill="#f5c6c1" stroke="#c0392b" stroke-width="2"/>
+        <text x="110" y="250" text-anchor="middle" font-size="12" fill="#34495e">Next Token Prediction</text>
+        
+        <!-- Unidirectional arrow -->
+        <path d="M 40,140 L 180,140" stroke="#34495e" stroke-width="1" marker-end="url(#arrowhead)"/>
+        
+        <!-- Label -->
+        <text x="110" y="280" text-anchor="middle" font-size="12" fill="#34495e">Left-to-Right Context</text>
+    </g>
+
+    <!-- LLM (>3B params) -->
+    <g transform="translate(530,80)">
+        <!-- Title -->
+        <text x="110" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#27ae60">Large Language Model</text>
+        <text x="110" y="50" text-anchor="middle" font-size="14" fill="#34495e">(e.g., MediTron-70B, > 3B params)</text>
+        
+        <!-- Input Embeddings -->
+        <rect x="20" y="70" width="180" height="30" fill="#a9dfbf" stroke="#27ae60" stroke-width="2"/>
+        <text x="110" y="90" text-anchor="middle" font-size="12" fill="#34495e">Input Embeddings</text>
+        
+        <!-- Many Decoder Layers -->
+        <rect x="20" y="120" width="180" height="40" fill="#2ecc71" stroke="#27ae60" stroke-width="2"/>
+        <text x="110" y="145" text-anchor="middle" font-size="12" fill="white">Masked Self-Attention</text>
+        
+        <rect x="20" y="170" width="180" height="40" fill="#2ecc71" stroke="#27ae60" stroke-width="2"/>
+        <text x="110" y="195" text-anchor="middle" font-size="12" fill="white">Feed Forward</text>
+        
+        <!-- Dotted lines to indicate many layers -->
+        <line x1="110" y1="220" x2="110" y2="230" stroke="#27ae60" stroke-width="2" stroke-dasharray="2,2"/>
+        
+        <!-- Output -->
+        <rect x="20" y="230" width="180" height="30" fill="#a9dfbf" stroke="#27ae60" stroke-width="2"/>
+        <text x="110" y="250" text-anchor="middle" font-size="12" fill="#34495e">Next Token Prediction</text>
+        
+        <!-- Unidirectional arrow -->
+        <path d="M 40,140 L 180,140" stroke="#34495e" stroke-width="1" marker-end="url(#arrowhead)"/>
+        
+        <!-- Label -->
+        <text x="110" y="280" text-anchor="middle" font-size="12" fill="#34495e">Deep Left-to-Right Context</text>
+    </g>
+
+    <!-- Arrow Definitions -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+        </marker>
+    </defs>
+
+    <!-- Key Differences -->
+    <g transform="translate(50,400)">
+        <text x="80" y="0" font-size="14" fill="#2980b9">• Bidirectional attention</text>
+        <text x="80" y="20" font-size="14" fill="#2980b9">• Focus on understanding</text>
+        
+        <text x="320" y="0" font-size="14" fill="#c0392b">• Unidirectional attention</text>
+        <text x="320" y="20" font-size="14" fill="#c0392b">• Smaller parameter count</text>
+        
+        <text x="560" y="0" font-size="14" fill="#27ae60">• Deep architecture</text>
+        <text x="560" y="20" font-size="14" fill="#27ae60">• Massive parameter count</text>
+    </g>
+</svg>
