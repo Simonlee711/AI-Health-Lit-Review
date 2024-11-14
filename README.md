@@ -83,6 +83,20 @@
 | MediTron-70B       | *arXiv*                                                                                    | [MEDITRON-70B: Scaling Medical Pretraining for Large Language Models](https://arxiv.org/abs/2311.16079) |
 | PMC-LLaMA          | *arXiv*                                                                                    | [PMC-LLaMA: toward building open-source language models for medicine](https://arxiv.org/abs/2304.14454) |
 | HuaTuo             | *arXiv*                                                                                    | [HuatuoGPT, Towards Taming Language Model to Be a Doctor](https://arxiv.org/abs/2305.15075) |
+
+### Multimodal Medical LLMs
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| BiomedGPT          | *arXiv*                                                                                    | [BiomedGPT: A Generalist Vision-Language Foundation Model for Diverse Biomedical Tasks](https://arxiv.org/abs/2305.17100) |
+| Med-Flamingo       | *arXiv*                                                                                    | [Med-Flamingo: a Multimodal Medical Few-shot Learner](https://arxiv.org/abs/2307.15189) | 
+| LLaVA-MED          | *arXiv*                                                                                    | [LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day](https://arxiv.org/abs/2306.00890) |
+| MedPaLM 2          | *arXiv*                                                                                    | [Towards Expert-Level Medical Question Answering with Large Language Models](https://arxiv.org/abs/2305.09617) |
+
+### Prompting Techniques in Medical LLMs
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| 
+
 </details>
 
 # Clinical Foundation models
