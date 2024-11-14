@@ -95,7 +95,21 @@
 ### Prompting Techniques in Medical LLMs
 | Model              | Source                                                                                     | Link |
 |--------------------|--------------------------------------------------------------------------------------------|------|
-| 
+| Dr. Knows          | *arXiv*                                                                                    | [Leveraging A Medical Knowledge Graph into Large Language Models for Diagnosis Prediction](https://arxiv.org/pdf/2308.14321v1) |
+| ChatCAD            | *arXiv*                                                                                    | [ChatCAD: Interactive Computer-Aided Diagnosis on Medical Image using Large Language Models](https://arxiv.org/abs/2302.07257) |
+
+### Other Medical LLMs
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| MedPaLM            | *Nature*                                                                                   | [Large language models encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2) |
+| NYUTron            | *Nature*                                                                                   | [Health system-scale language models are all-purpose prediction engines](https://pubmed.ncbi.nlm.nih.gov/37286606/) |
+| MedCPT             | *Bioinformatics Oxford Academic*                                                           | [MedCPT: Contrastive Pre-trained Transformers with large-scale PubMed search logs for zero-shot biomedical information retrieval](https://pubmed.ncbi.nlm.nih.gov/37930897/) |
+| BioGPT             | *arXiv*                                                                                    | [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://arxiv.org/abs/2210.10341) |
+| BioMistral         | *arXiv*                                                                                    | [BioMistral: A Collection of Open-Source Pretrained Large Language Models for Medical Domains](https://arxiv.org/abs/2402.10373) |
+| DRAGON             | *arXiv*                                                                                    | [Deep Bidirectional Language-Knowledge Graph Pretraining](https://arxiv.org/abs/2210.09338) |
+| Med-Gemini         | *arXiv*                                                                                    | [Capabilities of Gemini Models in Medicine](https://arxiv.org/abs/2404.18416) |
+| Clinical Camel     | *arXiv*                                                                                    | [Clinical Camel: An Open Expert-Level Medical Language Model with Dialogue-Based Knowledge Encoding](https://arxiv.org/abs/2305.12031) |
+| Aloe               | *arXiv*                                                                                    | [Aloe: A Family of Fine-tuned Open Healthcare LLMs](https://arxiv.org/abs/2405.01886) |
 
 </details>
 
