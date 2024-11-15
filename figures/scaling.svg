@@ -1,0 +1,37 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white" />
+
+  <!-- Title -->
+  <text x="50%" y="30" font-size="18" text-anchor="middle" fill="black">
+    Larger models require fewer samples to reach the same performance
+  </text>
+
+  <!-- Y-axis (Test Loss) -->
+  <line x1="60" y1="50" x2="60" y2="350" stroke="black" />
+  <text x="10" y="50" font-size="12" fill="black">10</text>
+  <text x="10" y="200" font-size="12" fill="black">8</text>
+  <text x="10" y="300" font-size="12" fill="black">6</text>
+  <text x="10" y="350" font-size="12" fill="black">4</text>
+  <text x="20" y="200" font-size="12" fill="black" transform="rotate(-90,20,200)">Test Loss</text>
+
+  <!-- X-axis (Tokens Processed) -->
+  <line x1="60" y1="350" x2="580" y2="350" stroke="black" />
+  <text x="100" y="370" font-size="12" fill="black">10⁷</text>
+  <text x="250" y="370" font-size="12" fill="black">10⁹</text>
+  <text x="500" y="370" font-size="12" fill="black">10¹¹</text>
+  <text x="300" y="390" font-size="12" fill="black">Tokens Processed</text>
+
+  <!-- Curves for different model sizes (Color gradient from yellow to dark blue) -->
+  <!-- Sample curves, adjust more for accuracy -->
+  <path d="M 60 80 C 150 120, 200 170, 580 200" stroke="yellow" fill="none" stroke-width="2" />
+  <path d="M 60 100 C 150 140, 200 190, 580 220" stroke="#FFD700" fill="none" stroke-width="2" />
+  <path d="M 60 120 C 150 160, 200 210, 580 240" stroke="#FFA500" fill="none" stroke-width="2" />
+  <path d="M 60 140 C 150 180, 200 230, 580 260" stroke="#FF4500" fill="none" stroke-width="2" />
+  <path d="M 60 160 C 150 200, 200 250, 580 280" stroke="blue" fill="none" stroke-width="2" />
+  <path d="M 60 180 C 150 220, 200 270, 580 300" stroke="darkblue" fill="none" stroke-width="2" />
+
+  <!-- Annotations for model sizes -->
+  <text x="300" y="140" font-size="12" fill="gray">10³ Params</text>
+  <text x="450" y="300" font-size="12" fill="gray">10⁹ Params</text>
+</svg>
