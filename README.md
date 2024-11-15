@@ -119,12 +119,24 @@
 
 <details>
 <summary> SAM Based Models </summary>
-[fill in]
+  
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| MedSAM             | *Nature Communications*                                                                    | [Segment anything in medical images](https://www.nature.com/articles/s41467-024-44824-z) |
+| MedSAM 2           | *arXiv*                                                                                    | [Medical SAM 2: Segment medical images as video via Segment Anything Model 2](https://arxiv.org/abs/2408.00874) |
 </details>
 
 <details>
 <summary> Other medical Imaging Foundation Models </summary>
-[fill in]
+
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| VISION-MAE         | *arXiv*                                                                                    | [VISION-MAE: A Foundation Model for Medical Image Segmentation and Classification](https://arxiv.org/abs/2402.01034) |
+| VISTA3D            | *arXiv*                                                                                    | [VISTA3D: Versatile Imaging SegmenTation and Annotation model for 3D Computed Tomography](https://arxiv.org/abs/2406.05285) |
+| GigaPath           | *Nature*                                                                                   | [A whole-slide foundation model for digital pathology from real-world data](https://www.nature.com/articles/s41586-024-07441-w) |
+| EVA-X              | *arXiv*                                                                                    | [EVA-X: A Foundation Model for General Chest X-ray Analysis with Self-supervised Learning](https://arxiv.org/abs/2405.05237) |
+| Med-gemini         | *arXiv*                                                                                    | [Advancing Multimodal Medical Capabilities of Gemini](https://arxiv.org/abs/2405.03162) |
+| PLIP               | 
 </details>
 
 <details>
