@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#ffffff"/>
+    
+    <!-- Left Plot - Loss Scaling -->
+    <g transform="translate(50, 350)">
+        <!-- Axes -->
+        <line x1="0" y1="0" x2="300" y2="0" stroke="black" stroke-width="2"/>
+        <line x1="0" y1="0" x2="0" y2="-300" stroke="black" stroke-width="2"/>
+        
+        <!-- X-axis label -->
+        <text x="150" y="35" text-anchor="middle" font-family="Arial">Scale (Parameters/Data/Compute)</text>
+        
+        <!-- Y-axis label -->
+        <text x="-170" y="-15" text-anchor="middle" transform="rotate(-90)" font-family="Arial">Loss</text>
+        
+        <!-- Plot title -->
+        <text x="150" y="-320" text-anchor="middle" font-family="Arial" font-weight="bold">Training Loss vs Scale</text>
+        
+        <!-- Scaling curves -->
+        <path d="M 0 -50 C 100 -100, 200 -200, 300 -250" fill="none" stroke="#1f77b4" stroke-width="3"/>
+        <path d="M 0 -40 C 100 -80, 200 -170, 300 -230" fill="none" stroke="#ff7f0e" stroke-width="3"/>
+        <path d="M 0 -30 C 100 -60, 200 -150, 300 -210" fill="none" stroke="#2ca02c" stroke-width="3"/>
+        
+        <!-- Legend -->
+        <g transform="translate(20, -270)">
+            <line x1="0" y1="0" x2="20" y2="0" stroke="#1f77b4" stroke-width="3"/>
+            <text x="25" y="5" font-family="Arial" font-size="12">Parameters</text>
+            <line x1="0" y1="20" x2="20" y2="20" stroke="#ff7f0e" stroke-width="3"/>
+            <text x="25" y="25" font-family="Arial" font-size="12">Data</text>
+            <line x1="0" y1="40" x2="20" y2="40" stroke="#2ca02c" stroke-width="3"/>
+            <text x="25" y="45" font-family="Arial" font-size="12">Compute</text>
+        </g>
+    </g>
+    
+    <!-- Right Plot - Performance Scaling -->
+    <g transform="translate(450, 350)">
+        <!-- Axes -->
+        <line x1="0" y1="0" x2="300" y2="0" stroke="black" stroke-width="2"/>
+        <line x1="0" y1="0" x2="0" y2="-300" stroke="black" stroke-width="2"/>
+        
+        <!-- X-axis label -->
+        <text x="150" y="35" text-anchor="middle" font-family="Arial">Scale (Parameters/Data/Compute)</text>
+        
+        <!-- Y-axis label -->
+        <text x="-170" y="-15" text-anchor="middle" transform="rotate(-90)" font-family="Arial">Performance</text>
+        
+        <!-- Plot title -->
+        <text x="150" y="-320" text-anchor="middle" font-family="Arial" font-weight="bold">Performance vs Scale</text>
+        
+        <!-- Scaling curves -->
+        <path d="M 0 -50 C 100 -150, 200 -200, 300 -250" fill="none" stroke="#1f77b4" stroke-width="3"/>
+        <path d="M 0 -40 C 100 -130, 200 -180, 300 -230" fill="none" stroke="#ff7f0e" stroke-width="3"/>
+        <path d="M 0 -30 C 100 -110, 200 -160, 300 -210" fill="none" stroke="#2ca02c" stroke-width="3"/>
+        
+        <!-- Legend -->
+        <g transform="translate(20, -270)">
+            <line x1="0" y1="0" x2="20" y2="0" stroke="#1f77b4" stroke-width="3"/>
+            <text x="25" y="5" font-family="Arial" font-size="12">Parameters</text>
+            <line x1="0" y1="20" x2="20" y2="20" stroke="#ff7f0e" stroke-width="3"/>
+            <text x="25" y="25" font-family="Arial" font-size="12">Data</text>
+            <line x1="0" y1="40" x2="20" y2="40" stroke="#2ca02c" stroke-width="3"/>
+            <text x="25" y="45" font-family="Arial" font-size="12">Compute</text>
+        </g>
+    </g>
+</svg>
