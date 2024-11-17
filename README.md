@@ -136,29 +136,52 @@
 | GigaPath           | *Nature*                                                                                   | [A whole-slide foundation model for digital pathology from real-world data](https://www.nature.com/articles/s41586-024-07441-w) |
 | EVA-X              | *arXiv*                                                                                    | [EVA-X: A Foundation Model for General Chest X-ray Analysis with Self-supervised Learning](https://arxiv.org/abs/2405.05237) |
 | Med-gemini         | *arXiv*                                                                                    | [Advancing Multimodal Medical Capabilities of Gemini](https://arxiv.org/abs/2405.03162) |
-| PLIP               | 
+| PLIP               | *Nature Medical*                                                         | [A visual-language foundation model for pathology image analysis using medical Twitter](https://pubmed.ncbi.nlm.nih.gov/37592105/) |
+| Med3D              | *arXiv*                                                                  | [Med3D: Transfer Learning for 3D Medical Image Analysis](https://arxiv.org/abs/1904.00625) |
+| BiomedCLIP         | *arXiv*                                                                  | [BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs](https://arxiv.org/abs/2303.00915) |
 </details>
 
 <details>
 <summary> Frameworks </summary>
-[fill in]
+  
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| FairMedFM          | *arXiv*                                                                                    | [FairMedFM: Fairness Benchmarking for Medical Imaging Foundation Models](https://arxiv.org/abs/2407.00983) |
+| SLIViT             | *Nature Biomedical Engineering*                                                            | [Accurate prediction of disease-https://www.biorxiv.org/content/10.1101/2023.01.11.523679v4risk factors from volumetric medical scans by a deep vision model pre-trained with 2D scans](https://ouci.dntb.gov.ua/en/works/7BYkgNZ9/) |
+  
 </details>
 
 ## Genetic & Genomics Foundation Modes
 
 <details>
 <summary> Genetic Foundation Models </summary>
-[fill in]
+
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| Nucleotide Transformer | *bioRxiv*                                                                              | [The Nucleotide Transformer: Building and Evaluating Robust Foundation Models for Human Genomics](https://www.biorxiv.org/content/10.1101/2023.01.11.523679v4) |
+| scBERT             | *Nature Machine Intelligence*                                                              | [scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data](https://www.nature.com/articles/s42256-022-00534-z) |
+| scGPT              | *Nature Methods*                                                                           | [scGPT: toward building a foundation model for single-cell multi-omics using generative AI](https://www.nature.com/articles/s41592-024-02201-0) |
+| SC-MAMBA2          | *bioRxiv*                                                                                  |[SC-MAMBA2: Leveraging State-Space Models for Efficient Single-Cell Ultra-Long Transcriptome Modeling](https://www.biorxiv.org/content/10.1101/2024.09.30.615775v1) |
 </details>
 
 <details>
 <summary> Long Sequence Modeling </summary>
-[fill in]
+
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| HyenaDNA           | *Advances in Neural Information Processing Systems*                                        | [HyenaDNA: long-range genomic sequence modeling at single nucleotide resolution](https://dl.acm.org/doi/10.5555/3666122.3667994) | 
+| GenaLM             | *bioRxiv*                                                                                  | [GENA-LM: A Family of Open-Source Foundational Models for Long DNA Sequences](https://www.biorxiv.org/content/10.1101/2023.06.12.544594v1) |
+| Evo                | *bioRxiv*                                                                                  | [Sequence modeling and design from molecular to genome scale with Evo](https://www.biorxiv.org/content/10.1101/2024.02.27.582234v1) |
 </details>
 
 <details>
 <summary> Special Eigenetic Foundation models </summary>
-[fill in]
+
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| CpGPT              | *bioRxiv*                                                                                  | [CpGPT: a Foundation Model for DNA Methylation](https://www.biorxiv.org/content/10.1101/2024.10.24.619766v1) |
+| Orthrus            | *bioRxiv*                                                                                  | [Orthrus: Towards Evolutionary and Functional RNA Foundation Models](https://www.biorxiv.org/content/10.1101/2024.10.10.617658v1.full)|
+| Enformer           | *Nature Methods*                                                                           | [Effective gene expression prediction from sequence by integrating long-range interactions](https://www.nature.com/articles/s41592-021-01252-x) |
 </details>
 
 ## Physiological Signals and Waveforms Foundation Modes
