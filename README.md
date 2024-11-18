@@ -175,7 +175,7 @@
 </details>
 
 <details>
-<summary> Special Eigenetic Foundation models </summary>
+<summary> Special Epigenetic Foundation models </summary>
 
 | Model              | Source                                                                                     | Link |
 |--------------------|--------------------------------------------------------------------------------------------|------|
@@ -217,6 +217,7 @@
 
 | Model              | Source                                                                                     | Link |
 |--------------------|--------------------------------------------------------------------------------------------|------|
+| Cross-Modal Representations | *arXiv*                                                                           | [Promoting cross-modal representations to improve multimodal foundation models for physiological signals](https://arxiv.org/abs/2410.16424) |
 | Large-Scale Training for Wearable Biosignals | *arXiv*                                                          | [Large-scale Training of Foundation Models for Wearable Biosignals](https://arxiv.org/abs/2312.05409) |
 | Foundation Models using Biosignals from Digital Stethoscopes | *npj Cardiovascular Health*                      | [Foundation models for cardiovascular disease detection via biosignals from digital stethoscopes](https://www.nature.com/articles/s44325-024-00027-5) |
 | Universal ECG Foundation Models                    | *arXiv*                                                    | [An Electrocardiogram Foundation Model Built on over 10 Million Recordings with External Evaluation across Multiple Domains](https://arxiv.org/html/2410.04133) | 
