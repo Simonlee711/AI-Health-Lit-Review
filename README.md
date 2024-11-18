@@ -188,22 +188,47 @@
 
 <details>
 <summary> ECG Foundation Models </summary>
-[fill in]
+  
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| ECG-FM             | *arXiv*                                                                                    | [ECG-FM: An Open Electrocardiogram Foundation Model](https://arxiv.org/abs/2408.05178) |
+| HeAR               | *arXiv*                                                                                    | [HeAR -- Health Acoustic Representations](https://arxiv.org/abs/2403.02522) |
+| PaPaGei            | *arXiv*                                                                                    | [PaPaGei: Open Foundation Models for Optical Physiological Signals](https://arxiv.org/abs/2410.20542) |
+| SiamQuality        | *arXiv*                                                                                    | [SiamQuality: A ConvNet-Based Foundation Model for Imperfect Physiological Signals](https://arxiv.org/abs/2404.17667) |
+| HeartBEiT          | *npj Digital Medicine*                                                                     | [A foundational vision transformer improves diagnostic performance for electrocardiograms](https://www.nature.com/articles/s41746-023-00840-9) | 
 </details>
 
 <details>
 <summary> EEG Foundation models </summary>
-[fill in]
+  
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| EEGFormer          | *arXiv*                                                                                    | [EEGFormer: Towards Transferable and Interpretable Large-Scale EEG Foundation Model](https://arxiv.org/abs/2401.10278) |
+| The Generative Foundation Model for Five-Class Sleep Staging | *arXiv*                                          | [A generative foundation model for five-class sleep staging with arbitrary sensor input](https://arxiv.org/abs/2408.15253) |
+| NeuroLM            | *arXiv*                                                                                    | [NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals](https://arxiv.org/abs/2409.00101) |
+| Nested Deep Learning Models | *arXiv*                                                                           | [Nested Deep Learning Model Towards A Foundation Model for Brain Signal Data](https://arxiv.org/abs/2410.03191) |
+| EEGPT              | *arXiv*                                                                                    | [EEGPT: Unleashing the Potential of EEG Generalist Foundation Model by Autoregressive Pre-training](https://arxiv.org/abs/2410.19779) |
+| BrainWave          | *arXiv*                                                                                    | [BrainWave: A Brain Signal Foundation Model for Clinical Applications](https://arxiv.org/abs/2402.10251) |
+
 </details>
 
 <details>
 <summary> Multimodal Foundation models </summary>
-[fill in]
+
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| Large-Scale Training for Wearable Biosignals | *arXiv*                                                          | [Large-scale Training of Foundation Models for Wearable Biosignals](https://arxiv.org/abs/2312.05409) |
+| Foundation Models using Biosignals from Digital Stethoscopes | *npj Cardiovascular Health*                      | [Foundation models for cardiovascular disease detection via biosignals from digital stethoscopes](https://www.nature.com/articles/s44325-024-00027-5) |
+| Universal ECG Foundation Models                    | *arXiv*                                                    | [An Electrocardiogram Foundation Model Built on over 10 Million Recordings with External Evaluation across Multiple Domains](https://arxiv.org/html/2410.04133) | 
+
 </details>
 
 <details>
 <summary> Other Foundation models </summary>
-[fill in]
+
+| Model              | Source                                                                                     | Link |
+|--------------------|--------------------------------------------------------------------------------------------|------|
+| GluFormer          | *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*        | [Gluformer: Transformer-Based Personalized Glucose Forecasting with Uncertainty Quantification](https://arxiv.org/abs/2209.04526) |
 </details>
 
 ### Contact
