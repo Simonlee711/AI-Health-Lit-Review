@@ -24,19 +24,19 @@
   <g transform="translate(300,200)">
     <rect x="-100" y="-25" width="200" height="50" rx="5" class="node"/>
     <text x="0" y="-5" text-anchor="middle" class="label">Encoder-based Models</text>
-    <text x="0" y="15" text-anchor="middle" class="count">(13 models)</text>
+    <text x="0" y="15" text-anchor="middle" class="count">(18 models)</text>
   </g>
 
   <g transform="translate(700,200)">
     <rect x="-100" y="-25" width="200" height="50" rx="5" class="node"/>
     <text x="0" y="-5" text-anchor="middle" class="label">Decoder-based Models</text>
-    <text x="0" y="15" text-anchor="middle" class="count">(7 models)</text>
+    <text x="0" y="15" text-anchor="middle" class="count">(9 models)</text>
   </g>
 
   <g transform="translate(1100,200)">
     <rect x="-100" y="-25" width="200" height="50" rx="5" class="node"/>
     <text x="0" y="-5" text-anchor="middle" class="label">Large Language Models</text>
-    <text x="0" y="15" text-anchor="middle" class="count">(11 models)</text>
+    <text x="0" y="15" text-anchor="middle" class="count">(13 models)</text>
   </g>
 
   <!-- Connecting Lines Level 2 -->
@@ -53,19 +53,19 @@
   <g transform="translate(200,350)">
     <rect x="-90" y="-25" width="180" height="50" rx="5" class="node"/>
     <text x="0" y="-5" text-anchor="middle" class="label">BERT-based</text>
-    <text x="0" y="15" text-anchor="middle" class="count">(9 models)</text>
+    <text x="0" y="15" text-anchor="middle" class="count">(10 models)</text>
   </g>
 
   <g transform="translate(400,350)">
     <rect x="-90" y="-25" width="180" height="50" rx="5" class="node"/>
-    <text x="0" y="-5" text-anchor="middle" class="label">BEHRT-based</text>
-    <text x="0" y="15" text-anchor="middle" class="count">(4 models)</text>
+    <text x="0" y="-5" text-anchor="middle" class="label">BEHRT & Custom</text>
+    <text x="0" y="15" text-anchor="middle" class="count">(11 models)</text>
   </g>
 
   <g transform="translate(600,350)">
     <rect x="-90" y="-25" width="180" height="50" rx="5" class="node"/>
     <text x="0" y="-5" text-anchor="middle" class="label">GPT-based</text>
-    <text x="0" y="15" text-anchor="middle" class="count">(4 models)</text>
+    <text x="0" y="15" text-anchor="middle" class="count">(7 models)</text>
   </g>
 
   <g transform="translate(800,350)">
@@ -83,6 +83,6 @@
   <g transform="translate(1200,350)">
     <rect x="-90" y="-25" width="180" height="50" rx="5" class="node"/>
     <text x="0" y="-5" text-anchor="middle" class="label">Other Medical LLMs</text>
-    <text x="0" y="15" text-anchor="middle" class="count">(8 models)</text>
+    <text x="0" y="15" text-anchor="middle" class="count">(10 models)</text>
   </g>
 </svg>
