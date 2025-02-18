@@ -1,6 +1,9 @@
 # A Review of AI in Healthcare in the Era of Foundation Models
 ---
+### Abstract
+The proliferation of Electronic Health Records (EHR) presents a transformative opportunity for advancing healthcare delivery and research at the patient level. In the current era of foundation models, the landscape of clinical research is rapidly evolving, driven by innovations in Natural Language Processing (NLP) and deep learning techniques offering scalable and generalist AI capabilities. This paper provides a comprehensive overview of the state-of-the-art of EHR foundation models as well as frameworks derived from foundation models. The purpose of this work is to provide a scoping review of the latest developments in health research through the lens of emerging AI technologies. We further highlight challenges and opportunities for further development in this space.
 
+---
 # EHR Foundation Models
 
 <details>
