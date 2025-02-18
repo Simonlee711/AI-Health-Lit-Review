@@ -1,4 +1,13 @@
 # A Review of AI in Healthcare in the Era of Foundation Models
+Simon A. Lee<sup>1</sup>, Anthony Wu<sup>1</sup>, Moonseong Jeong<sup>2</sup>, Ulzee An<sup>2</sup>, Kyoka Ono<sup>1</sup>, Kai Akatmatsu<sup>1</sup>, Jiahang Sha<sup>1</sup>, Timothy Lindsey<sup>3</sup>, Jeffrey N. Chiang<sup>1,4</sup>  
+
+## **Affiliations**  
+
+<sup>1</sup> Department of Computational Medicine, University of California, Los Angeles, Los Angeles, CA, USA  
+<sup>2</sup> Department of Computer Science, University of California, Los Angeles, Los Angeles, CA, USA  
+<sup>3</sup> Bioinformatics IDP, University of California, Los Angeles, Los Angeles, CA, USA  
+<sup>4</sup> Department of Neurosurgery, University of California, Los Angeles, Los Angeles, CA, USA  
+
 ---
 ### Abstract
 The proliferation of Electronic Health Records (EHR) presents a transformative opportunity for advancing healthcare delivery and research at the patient level. In the current era of foundation models, the landscape of clinical research is rapidly evolving, driven by innovations in Natural Language Processing (NLP) and deep learning techniques offering scalable and generalist AI capabilities. This paper provides a comprehensive overview of the state-of-the-art of EHR foundation models as well as frameworks derived from foundation models. The purpose of this work is to provide a scoping review of the latest developments in health research through the lens of emerging AI technologies. We further highlight challenges and opportunities for further development in this space.
@@ -234,6 +243,8 @@ The proliferation of Electronic Health Records (EHR) presents a transformative o
 |--------------------|--------------------------------------------------------------------------------------------|------|
 | GluFormer          | *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*        | [Gluformer: Transformer-Based Personalized Glucose Forecasting with Uncertainty Quantification](https://arxiv.org/abs/2209.04526) |
 </details>
+
+---
 
 ### Contact
 
